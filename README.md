@@ -34,10 +34,12 @@ Il nome deriva dalla sua natura: **Agrodolce**. Aspro come una Debian Minimal, d
 
 Clona questo repository e lancia lo script di setup:
 
+```
 git clone https://github.com/UncleDan/pompelmo-pro.git
 cd pompelmo-pro
 chmod +x install-pompelmo-core.sh
 sudo ./install-pompelmo-core.sh
+```
 
 ---
 
