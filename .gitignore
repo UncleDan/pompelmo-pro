@@ -1,0 +1,32 @@
+# --- Pompelmo Pro GitIgnore ---
+
+# File di backup e temporanei
+*~
+*.swp
+*.tmp
+*.log
+
+# ISO e Immagini ( create da MX Snapshot )
+*.iso
+*.iso.md5
+*.iso.sha256
+
+# Cartelle di sistema locali o build
+dist/
+bin/
+obj/
+
+# File di configurazione personale (opzionale)
+.DS_Store
+.directory
+.vscode/
+.idea/
+
+# Credenziali o file sensibili (se mai ne aggiungerai)
+*.key
+*.pem
+*.secret
+
+# Cache dei pacchetti o dei container (se scaricati localmente)
+.cache/
+node_modules/
