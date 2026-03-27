@@ -77,7 +77,7 @@ echo "--- 9. Sway Integration ---"
 mkdir -p ~/.config/sway/
 if [ ! -f ~/.config/sway/config ]; then
 cat <<EOF > ~/.config/sway/config
-# Pompelmo Pro Base
+# Pompelmo Pro Core
 exec foot --server
 set \$mod Mod4
 set \$term footclient
